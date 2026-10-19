@@ -1,0 +1,19 @@
+# Binaries and test artefacts
+*.exe
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# Local secrets and state
+.env
+*.pem
+*.key
+
+# Editors
+.idea/
+.vscode/
